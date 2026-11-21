@@ -6,10 +6,10 @@ for crop protection, tested against simulation, held-out years and field sensor 
 
 ## Featured work
 
-**[grapevine-downy-mildew-eval](https://github.com/mateuszunino/grapevine-downy-mildew-eval)**
+**[vitirule](https://github.com/mateuszunino/vitirule)**
 An open, reproducible protocol for evaluating weather-driven spray rules against
 grapevine downy mildew (*Plasmopara viticola*) before field trials.
-[Technical report (PDF)](https://github.com/mateuszunino/grapevine-downy-mildew-eval/blob/main/docs/technical_report.pdf)
+[Technical report (PDF)](https://github.com/mateuszunino/vitirule/blob/main/docs/technical_report.pdf)
 
 - Rules were frozen in Git before each evaluation, with separate year blocks for
   selection and validation (2016–2025, Moselle, Bordeaux, Alsace, Champagne, Burgundy).
