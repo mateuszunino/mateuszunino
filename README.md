@@ -1,4 +1,4 @@
-# Mateus Zunino
+# Mateus Zunino Espindola
 
 Agronomist in training at the Federal University of Santa Catarina (UFSC), Brazil.
 I work on **agrometeorology and plant disease decision support**: weather-driven models
@@ -21,8 +21,8 @@ grapevine downy mildew (*Plasmopara viticola*) before field trials.
 - The rule beats fixed calendars by sizing each season's spray campaign, not by
   better timing within a season. Its two worst failure seasons are documented.
 
-**Flax capsule detection with deep learning** (undergraduate thesis, UFSC, 2026)
-Co-author of `flax_capsule_det`, a YOLO26 model for detecting and counting flax
+**Development and validation of a deep learning model for the detection of flaxseed capsules**
+(undergraduate thesis, UFSC, 2026). Co-author of `flax_capsule_det`, a YOLO26 model for detecting and counting flax
 (*Linum usitatissimum*) capsules, published by NEPEM-UFSC on
 [Hugging Face](https://huggingface.co/datasets/NEPEM-UFSC/dl_models).
 I collected and annotated the complex-background training images.
@@ -31,8 +31,7 @@ recall 99.0%, mAP@50 0.98, counting R² 0.999.
 
 ## Background
 
-- Field trials with flax: experimental design, plot management, assessments and data analysis.
-- Coursework in physics, including meteorology, before agronomy.
+- Field trials with flax at NEPEM-UFSC (plant breeding and experimentation lab): plot management, assessments and data analysis.
 - Data reporting with Power BI in public administration (2019–2021).
 
 ## Tools
@@ -45,10 +44,10 @@ and what I did.
 
 ## Languages
 
-Portuguese (native) · English (fluent) · French (B1) · Luxembourgish (beginner)
+Portuguese (native) · English (fluent) · French (B1)
 
 ## Contact
 
-São José, SC, Brazil · open to roles in Europe and remote work
+Florianópolis, SC, Brazil · open to roles in Brazil, Europe and remote
 [zuninoespindola@gmail.com](mailto:zuninoespindola@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/mateuszunino/)
