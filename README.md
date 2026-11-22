@@ -6,20 +6,22 @@ for crop protection, tested against simulation, held-out years and field sensor 
 
 ## Featured work
 
-**[vitirule](https://github.com/mateuszunino/vitirule)**
-An open, reproducible protocol for evaluating weather-driven spray rules against
-grapevine downy mildew (*Plasmopara viticola*) before field trials.
-[Technical report (PDF)](https://github.com/mateuszunino/vitirule/blob/main/docs/technical_report.pdf)
+**[vitirule](https://github.com/mateuszunino/vitirule)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24449844.svg)](https://doi.org/10.5281/zenodo.24449844)
+How far can a plant disease alert computed from free weather data be trusted?
+[Technical report (PDF)](https://github.com/mateuszunino/vitirule/blob/main/docs/v2/report_v2.pdf) ·
+[Browser tool](https://mateuszunino.github.io/vitirule/app/)
 
-- Rules were frozen in Git before each evaluation, with separate year blocks for
-  selection and validation (2016–2025, Moselle, Bordeaux, Alsace, Champagne, Burgundy).
-- Negative result: assimilating leaf severity into the forecast added nothing over a
-  forecast-and-rain-wash-off rule at an equal spray budget.
-- Leaf wetness estimators were checked against 80,000 hours of field sensor data
-  (INRAE AgroClim, Politecnico di Torino). The weather data source mattered more
-  than the choice of formula.
-- The rule beats fixed calendars by sizing each season's spray campaign, not by
-  better timing within a season. Its two worst failure seasons are documented.
+- Four published warning rules (Rule 3-10, Goidànich, revised Mills, TOM-CAST) run on
+  station data with a leaf wetness sensor, then on the same station without the sensor
+  and on free gridded data (ERA5, Open-Meteo forecasts, NASA POWER).
+- Preregistered: rules, metrics and quality control were frozen in Git tags before any
+  comparison was run.
+- In the European exploratory set (INRAE AgroClim, Politecnico di Torino), no free
+  gridded source met the usability criterion for any rule. For apple scab, a local
+  station without the leaf wetness sensor did.
+- Transfer to 11 INMET stations in Santa Catarina, Brazil, selected blindly before the
+  data were downloaded.
+- The browser tool runs the frozen rules on a grower's own station data, with no installation.
 
 **Development and validation of a deep learning model for the detection of flaxseed capsules**
 (undergraduate thesis, UFSC, 2026). Co-author of `flax_capsule_det`, a YOLO26 model for detecting and counting flax
