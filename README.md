@@ -41,9 +41,6 @@ recall 99.0%, mAP@50 0.98, counting R² 0.999.
 Python (NumPy, SciPy, pandas) · R (`pliman`, `metan`, `agricolae`) · YOLO-based
 computer vision · PostgreSQL · Git
 
-I build software with AI coding assistants and state in each project what they did
-and what I did.
-
 ## Languages
 
 Portuguese (native) · English (fluent) · French (B1)
